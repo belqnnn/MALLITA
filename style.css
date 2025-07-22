@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.malla {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 10px;
+}
+.semestre {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  min-width: 200px;
+  padding: 15px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+.semestre h2 {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.semestre ul {
+  list-style: none;
+  padding: 0;
+}
+.semestre li {
+  padding: 6px;
+  background: #f0f0f0;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  font-size: 14px;
+}
